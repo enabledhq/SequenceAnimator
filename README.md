@@ -27,4 +27,6 @@ Take a look the included demo app
 
 ![Demo](Images/SequenceDemo.gif)
 
+Which includes a comparison of implicit `UIView` animation syntax with `SequenceAnimator`
+
 ![Code Comparison](Images/SequenceAnimatorComparison.gif)
