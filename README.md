@@ -4,6 +4,7 @@ A wrapper for UIView animation which makes it easy to write sequences of animati
 
 So instead of writing:
 
+```swift
     UIView.animate(withDuration: 0.5, animations: {
         //Some animation
     }) { done in
@@ -11,9 +12,10 @@ So instead of writing:
             //Do another animation after the first...
         }, completion: ...)
     }
-    
+```
 You write:
 
+```swift
     SequenceAnimator.animate(0.5) {
         //Some animation
     }.animate(0.5) {
@@ -21,6 +23,7 @@ You write:
     }.done {
         //We're done
     }
+```
    
 You can intersperse `done` blocks throughout the chained animations and also use delays   
 
