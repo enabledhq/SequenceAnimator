@@ -1,4 +1,5 @@
 # SequenceAnimator
+
 A wrapper for UIView animation which makes it easy to write sequences of animations 
 
 So instead of writing:
@@ -30,3 +31,7 @@ Take a look the included demo app
 Which includes a comparison of implicit `UIView` animation syntax with `SequenceAnimator`
 
 ![Code Comparison](Images/SequenceAnimatorComparison.gif)
+
+# Installation
+
+Copy SequenceAnimator.swift to your project
